@@ -13,7 +13,7 @@ _website design project_
 
 This project is for educational purposes only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://monicule.github.com/eduhouse
+Site published at: https://github.com/monicule/eduhouse
 
 Design: [Eduhouse](https://dribbble.com/shots/14735947--Eduhouse-Education-Management-Dashboard-Design/attachments/6437950?mode=media)
 
