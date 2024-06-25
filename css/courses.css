@@ -80,24 +80,40 @@
 .progress-bar .bar {
     width: 40%;
     height: 100%;
+    border-radius: inherit;
+}
+.progress-bar .value {
+    width: 100%;
+    height: 100%;
     background-color: var(--color1);
     border-radius: inherit;
     position: relative;
+    animation-name: loading;
+    animation-duration: 4s;
 }
-.progress-bar .bar::after {
+.progress-bar .value::after {
     content: '';
     display: block;
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
     background-color: #fff;
     border: 5px solid var(--color1);
     border-radius: 50%;
     position: absolute;
-    top: -10px;
-    right: -10px;
+    top: -5px;
+    right: -5px;
 }
 .progress-bar .values {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+@keyframes loading {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
 }
